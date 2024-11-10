@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+section{
+    color: white;
+}
+.container {
+    width: calc(100% - 120px);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.row { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.CountDown {
+    position: relative; /* يجعل الحاوية مرجعية للعناصر المطلقة */
+  }
+  .CountDown img{
+    width: 100%;
+    height:auto;
+}
+.title{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+font-family: "Poppins", sans-serif;
+text-transform: uppercase;
+padding-bottom:0px ;
+}
+.title h1{
+    margin-top: 1px;
+    font-weight: 600;
+    font-size: 100px;
+    padding-bottom:3px ;
+    margin-bottom:10px ;
+}
+.title h2{
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 90px; 
+    text-align: center;
+}
+
+
+
+.headerCount h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* لجعل المحتوى في المنتصف */
+    gap: 15px; /* المسافة بين النص والخط */
+    text-transform: uppercase;
+    word-spacing: 10px;
+    
+  }
+  
+  .headerCount hr {
+    flex: 1; /* يسمح للخط بالتمدد */
+    border: none; /* إزالة الحدود الافتراضية */
+    border-top: 1px solid white; /* التحكم في شكل الخط */
+    margin: 0; /* إزالة الهوامش */
+
+  }
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+
+}
+.time h2{
+   
+    font-family: "Itim", cursive;
+    font-size: 70px;  
+    margin-top: 0;
+    font-weight: 50;
+    
+
+}
+
+.time span{
+    text-align: center;
+    font-weight: 900;
+    font-size: 95px; 
+}
